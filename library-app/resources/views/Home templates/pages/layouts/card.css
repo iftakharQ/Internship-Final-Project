@@ -1,0 +1,48 @@
+:root {
+
+    --base: #F3F2EC;
+    --base-text: #566573;
+    --base-text-hover: #1C2833;
+    --base-darker: #e9e7e0;
+}
+
+.bookCard {
+    transition: box-shadow 0.3s ease;
+  }
+
+  .bookCard:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  }
+
+/* .myCard {
+
+    width: 540px;
+    height: 280px;
+
+    background-color: var(--base-text-hover);
+} */
+
+/* .card-left {
+
+    height: 100%;
+    width: 180px;
+
+    background-color: darkcyan;
+} */
+
+.card-img-top {
+
+    width: 180px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.card-title {
+
+    word-break: break-all;
+}
+
+.card-text {
+
+    font-weight: bold;
+}

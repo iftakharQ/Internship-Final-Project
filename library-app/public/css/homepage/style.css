@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+
+    --base: #F3F2EC;
+    --base-text: #566573;
+    --base-text-hover: #1C2833;
+    --base-darker: #e9e7e0;
+    --purple: #8E44AD;
+}
+body::-webkit-scrollbar {
+
+    /* scrollbar-width: none; */
+}
+
+.homeTitle {
+
+    font-size: 40px;
+    font-family: "Bona Nova", serif;
+    font-weight: 700;
+    font-style: italic;
+    background-color: var(--base-darker);
+}
+
+.bookDetailLink {
+
+    color: var(--purple);
+}
+.bookDetailLink:hover {
+
+    color: var(--purple);
+    text-decoration: underline;
+}
+
+.btn-outline-purple {
+
+    background: none;
+    border: 2px solid var(--purple);
+    color: var(--purple);
+}
+.btn-outline-purple:hover {
+
+    background-color: var(--purple);
+    color: white;
+}
+
+#contentWrapper {
+
+    height: calc(100vh - 60px) !important;
+    /* padding-top: 40px; */
+    background-color: var(--base-darker) !important;
+}
+
+/* top navbar */
+#topNav {
+
+    height: 60px !important;
+}
+
+/* sidebar */
+.user-name {
+
+    color: var(--base-text) !important;
+}
+.user-name:hover {
+
+    color: var(--base-text-hover) !important;
+}
+
+.bg-base {
+    background-color: var(--base);
+}
+
+.brand-link {
+
+    color: var(--base-text-hover) !important;
+}
+
+#sidebarMenu .nav-link {
+
+    color: var(--base-text) !important;
+}
+#sidebarMenu .nav-link:hover {
+
+     color: var(--base-text-hover) !important;
+     background-color: var(--base-darker) !important;
+}
+
+
+/* main content */
+.main-content {
+
+    /* height: calc(100vh - 60px); */
+    /* commented out below */
+    height: 100%;
+    /* border-radius: 10px 10px 0 0;
+    background-color: var(--base) !important;
+    overflow: auto; */
+
+    background-color: var(--base-darker);
+    padding-top: 40px;
+}
+
+.main-content .container-fluid {
+
+    height: 100%;
+    background-color: var(--base);
+    border-radius: 10px 10px 0 0;
+    overflow: auto;
+}
+.main-content .container-fluid::-webkit-scrollbar {
+
+    scrollbar-width: none;
+}
